@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -47,6 +48,13 @@ public class RecyclerActivity extends AppCompatActivity {
             txtName = (TextView)itemView.findViewById(R.id.txt_name);
             txtPhone = (TextView)itemView.findViewById(R.id.txt_phone);
             img = (ImageView)itemView.findViewById(R.id.img_url);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(mcon,"Item clicked!!",Toast.LENGTH_SHORT).show();
+                }
+            });
         }
 
         public void setData(DummyData data){
