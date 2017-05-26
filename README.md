@@ -8,7 +8,8 @@ android samples for fast development
 ### Network
 
 ### Activity & Fragment
-  - 
+- Communication between Activities
+- Basic Fragment
 
 ### Dialog
   - 
