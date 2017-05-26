@@ -1,6 +1,7 @@
-# Communication between activities
+# Basic recyclerview
 
-![screen shot](https://github.com/koohanmo/androidSamples/blob/master/Activity%20and%20Fragment/%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%EA%B0%84%20%ED%86%B5%EC%8B%A0/activity_activity.PNG?raw=true)
+![screen shot](https://github.com/koohanmo/androidSamples/blob/master/View/Recyclerview/%EA%B8%B0%EB%B3%B8_Recyclerview/Screenshot_1495783071.png?raw=true)
 
 ### reference
-[google-android](https://developer.android.com/training/basics/intents/result.html?hl=ko)
+[blog1](http://thdev.tech/androiddev/2016/11/01/Android-RecyclerView-intro.html)
+[blog2](http://www.kmshack.kr/2014/10/android-recyclerview/)
